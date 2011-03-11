@@ -1,0 +1,202 @@
+/* 
+  text-color: #613104  // dark-brown
+  background-color: cdc9c2; // light-brown
+
+*/
+
+/* Structure */
+
+#right-header {
+  text-align: center;
+}
+
+#right-content {
+  text-align: center;
+}
+
+#right-header,  #right-footer{
+  border-left-color: #bdb4ad;
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin-left: -1px;
+}
+
+#left-header, #left-content, #left-footer{
+  border-right-color: #bdb4ad;
+  border-right-style: solid;
+  border-right-width: 1px;
+  margin-right: -1px;
+
+}
+
+#right-content {
+  border-left-color: #bdb4ad;
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin-left: -0px;
+}
+
+
+ #left-content, #right-content {
+  border-top-color: #bdb4ad;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-top: -1px;
+}
+
+#left-content {
+	width: 309px;
+  padding-right: -1px;
+  border-right-color: #bdb4ad;
+  border-right-style: solid;
+  border-right-width: 1px;
+/*  margin-right: -0px;*/
+}
+
+
+/* Page elements */
+/*
+#header_title {
+  color: white;
+  font-size: XX-large;
+}
+
+#header_subtitle {
+  font-size: X-large;
+}*/
+
+#left-title {
+  text-align: center;
+  padding-top: 4%;
+
+}
+
+#left-title-big {
+  font-size: 24px;
+}
+
+#left-title-small {
+  font-size: 16px;
+}
+
+#title_img {
+  padding-top: 1%;
+  height: 80px;
+}
+
+#title_img img {
+  height: 100%;
+}
+
+#big_img {
+  padding-top: 4.5%;
+  padding-left: 4.5%;
+}
+
+#big_img img {
+  width: 100%;
+}
+
+#big_image_title {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/*#menu {
+}*/
+
+#menu a {
+  color: #663300;
+/*    #613104;*/
+  text-decoration: none;
+}
+
+#menu td {
+  padding-left: 30px;
+}
+
+#bottom_menu {
+  font-size: 14px;
+  padding-top: 5%;
+  padding-bottom: 10px;
+}
+
+/*left_home_menu*/
+
+#left_menu ul {
+  list-style-type: none;
+  padding-left: 15px;
+  padding-top: 3px;
+}
+
+#left_menu ul a {
+  color: #663300;
+  text-decoration: none;
+}
+
+#first_level {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+#first_level li {
+/*  padding-top: 10px;*/
+}
+
+#second_level {
+  font-size: 20px;
+}
+
+#second_level li {
+  padding-top: 2px;
+}
+
+#third_level {
+  font-size: 16px;
+}
+
+#third_level li {
+  padding-top: 3px;
+}
+
+/* Galleries */
+
+#thumbs {
+  table-layout: fixed;
+  margin-top: 81px;
+/*  margin-left: 11px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#thumbs td {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 105px !important;
+}
+
+#thumbs img {
+  width: 100% !important;
+}
+
+#big_img_one img {
+  max-width: 600px !important;
+  max-height: 673px !important;
+}
+
+
+#BigOne {
+  margin-top: 12px;
+/*  width: 92%;*/
+
+}
+
+#galleries_title {
+  margin-top: 12px;
+  font-size: 24px;
+  font-variant: small-caps;
+}
+
